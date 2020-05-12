@@ -1,21 +1,18 @@
 {
-  "name": "inbox",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "lottery-react",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "expres": "0.0.5",
-    "express": "^4.17.1",
-    "ganache-cli": "^6.9.1",
-    "mocha": "^7.1.0",
-    "solc": "^0.4.17",
-    "truffle-hdwallet-provider": "0.0.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "0.9.5",
     "web3": "^1.0.0-beta.35"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
